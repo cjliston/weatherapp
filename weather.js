@@ -60,7 +60,7 @@ $('#showMoreBtn').click(function (evt){
     function displayForecast(data) {
       var forecastHTML = '<div id="forecasts">'
       $.each(data.list,function(i,day) {
-        forecastHTML += '<div class="forecast"><p>'+ dateConverter(day.dt) + '</p><p>High: '+day.temp.max+'</p><p>Low:'+ day.temp.min+'</p></div>'
+        forecastHTML += '<div class="forecast"><p>'+ dateConverter(day.dt) + '</p><p>High: '+day.temp.max+'</p><p>Low: '+ day.temp.min+'</p></div>'
       }); // end each
       forecastHTML +='</div>'
       $('#spinner').hide();
