@@ -46,11 +46,12 @@ width:75%
 }
 #welcome{
 	font-size: 200%;
-	margin-top: 3%
+	margin-top: 3%;
+	text-align: center
 
 }
 
-#weather img{
+#welcome img{
 	margin-top: 2.5%;
 
 }
