@@ -65,6 +65,7 @@ $('#showMoreBtn').click(function (evt){
       forecastHTML +='</div>'
       $('#spinner').hide();
       $('#forecastsDiv').html(forecastHTML);
+      $('.forecast:first-child').hide();
       $('#forecastsDiv').show();
     }
 
