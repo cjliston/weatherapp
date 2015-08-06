@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="WTF Weather: The only honest weather source on the web.">
+<meta name="author" content="Cameron Liston">
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="weather.js"></script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link rel="icon"  type="image/png"  href="img/weathericon.png">
+</head>
+<body>
+
+<h1>WTF is the weather?</h1>
+
+<form class="form">
+	<label for="search">Enter the city you are in?</label>
+	<input type="search" name= "search" id="search">
+	<input type="submit" value= "GO!" id ="submit">
+<div id="weather">
+<h2 id="welcome">Welcome to the only honest fucking weather app in the world.</h2>
+<img src="img/weathericon.png">
+</div>
+</form>
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Weather data provided by: http://openweathermap.org/api</p>
+      </div>
+    </footer>
+</body>
+</html>
